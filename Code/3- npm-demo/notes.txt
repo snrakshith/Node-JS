@@ -1,0 +1,51 @@
+Semantic Versioning or SemVer
+It has mainly 3 parts,
+
+ex: "mongoose": " ^4.12.1 " 
+
+Major.Minor.Patch Version or Patch Release
+
+1st number is Major Version i.e, -- 4
+2nd number is Minor Version i.e, -- 12
+3rd number is Patch Version i.e, -- 1
+
+----
+Patch Version or Patch Release:
+    The number is Increased when a Mongoose Team, 
+    Finds a bug!!. 
+        = Now It will be `"mongoose": " ^4.12.2 ` "
+----
+Minor Version:
+    The number is Increased when a Mongoose Team,  
+    When they add new features to the Mongoose by not breaking the,
+    Existing API's.
+        = Now It will be ` "mongoose": " ^4.13.0 "
+         The Patch Version would become 0 bcz they have not found any Bugs Yet!! or to
+         it can be unstable version also bcz we have not fixed any Bugs still in that version.
+         [ And When they find Bugs they will Increase it to` "mongoose": " ^4.13.1 " ]
+----
+Major Version:
+    The number is Increased when a Mongoose Team, 
+    If they add a feature which could potentialy break the existing applications that currently
+    depend upon the present version of Mongoose ie., ` "mongoose": " ^4.13.0 "
+    Then it will be
+         = Now It will be ` "mongoose": " ^5.0.0 "
+----
+
+^ = Caret
+"mongoose": "^4.13.7" 
+"mongoose": "^4.x.x" or "^4.x"
+Downloads, the exact version(4.x.x) of Mongoose library with a Latest Minor & Patch Version.
+
+~ = Tilde
+"mongoose": "~4.13.7" 
+"mongoose": "~4.13.x"
+Downloads, the exact version(4.13.x) of Mongoose library with a Latest Patch Version.
+
+Use Nothing
+"mongoose": "4.13.7" 
+Downloads, the exact version of Mongoose library.
+
+* = Star
+"mongoose": "*"
+Downloads, the Latest Version of Mongoose library which is available in the market.
